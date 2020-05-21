@@ -1,0 +1,4 @@
+{:paths ["src"]
+ :deps  {org.clojure/clojure {:mvn/version "1.10.1"}}
+ :aliases {:dev {:extra-paths ["dev" "test"]
+                 :extra-deps {cljs-dev {:local/root "../clojure-common/cljs-dev"}}}}}

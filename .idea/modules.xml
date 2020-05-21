@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/client-proj/client-proj.iml" filepath="$PROJECT_DIR$/client-proj/client-proj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clojure-common/cljs-dev/cljs-dev.iml" filepath="$PROJECT_DIR$/clojure-common/cljs-dev/cljs-dev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/full-stack.iml" filepath="$PROJECT_DIR$/full-stack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-proj/server-proj.iml" filepath="$PROJECT_DIR$/server-proj/server-proj.iml" />
+    </modules>
+  </component>
+</project>
