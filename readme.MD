@@ -1,0 +1,1 @@
+### A clojure end to end application template
