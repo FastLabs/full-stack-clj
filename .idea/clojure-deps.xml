@@ -13,6 +13,7 @@
       <list>
         <option value="file://$PROJECT_DIR$/clojure-common/cljs-dev/deps.edn" />
         <option value="file://$PROJECT_DIR$/client-proj/deps.edn" />
+        <option value="file://$PROJECT_DIR$/clojure-common/clj-dev/deps.edn" />
         <option value="file://$PROJECT_DIR$/server-proj/deps.edn" />
       </list>
     </option>
