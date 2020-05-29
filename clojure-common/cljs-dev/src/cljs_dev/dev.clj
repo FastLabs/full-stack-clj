@@ -1,7 +1,7 @@
 (ns cljs-dev.dev
   (:require [figwheel.main.api :as figwheel]))
 
-(defn web-root "../web-root")
+(def web-root "resources")
 
 (def main-config
   {:watch-dirs          ["test" "src"]
