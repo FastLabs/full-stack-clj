@@ -7,7 +7,7 @@
 
 (defn mount-app-element []
   (when-let [el (gdom/getElement "app")]
-    (rd/render [:div "Hello 11"] el)))
+    (rd/render [:div "Hello World!!!"] el)))
 
 (defn ^:export init []
   (mount-app-element))

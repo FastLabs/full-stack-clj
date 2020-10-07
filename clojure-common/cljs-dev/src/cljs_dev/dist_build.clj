@@ -6,6 +6,6 @@
     (merge {:main          main-ns
             :infer-externs true
             :output-dir    "out"
-            :output-to     "web-root/public/cljs-out/main.js"
+            :output-to     "public/cljs-out/main.js"
             :optimizations :advanced}
            additional-opts)))

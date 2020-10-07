@@ -2,11 +2,14 @@
   (:require [cljs-dev.dev :as dev]
             [cljs-dev.dist-build :as dist]))
 
-(def dev-compiler-opts (merge dev/base-options {:main 'client-app.core}))
+(def web-root "resources")
 
-;TODO: review css dir if required here as it is inherited from the default
-(def fig-config (-> dev/main-config (assoc :watch-dirs ["src"]
-                                           :css-dirs ["../web-root/public/css"])))
+(def dev-compiler-opts
+  (dev/figwheel-opts web-root {:main 'client-app.core}))
+
+(def fig-config
+  (dev/figwheel-config web-root))
+
 (defn start-figwheel! []
   (dev/start-figwheel! fig-config dev-compiler-opts))
 
