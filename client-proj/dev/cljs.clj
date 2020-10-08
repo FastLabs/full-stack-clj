@@ -1,5 +1,6 @@
 (ns cljs
   (:require [cljs-dev.dev :as dev]
+            [figwheel.main.api :as figwheel]
             [cljs-dev.dist-build :as dist]))
 
 (def web-root "resources")
@@ -16,6 +17,8 @@
 (defn dist-build! []
   (dist/dist-compile 'ss {}))
 
+(defn repl []
+  (figwheel/cljs-repl "dev"))
 
 (defn -main [& args]
   (let [build (keyword (first args))]
