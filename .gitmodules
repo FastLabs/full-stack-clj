@@ -1,0 +1,3 @@
+[submodule "clojure-common"]
+	path = clojure-common
+	url = git@github.com:FastLabs/clojure-common.git
